@@ -1,0 +1,54 @@
+{
+    "description": "SPI Flash filesystem support for FAT and CircuitPython FS support from within Arduino", 
+    "repository": {
+        "url": "https://github.com/adafruit/Adafruit_SPIFlash", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "gd32v", 
+        "infineonxmc", 
+        "intel_arc32", 
+        "kendryte210", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "ststm8", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Adafruit", 
+            "url": null, 
+            "email": "info@adafruit.com"
+        }
+    ], 
+    "keywords": [
+        "storage", 
+        "data"
+    ], 
+    "id": 1643, 
+    "name": "Adafruit SPIFlash", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "3.1.4", 
+    "homepage": null
+}

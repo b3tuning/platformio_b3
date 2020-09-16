@@ -1,0 +1,793 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                              build/samd51j20/flash_samd51.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+b_sharp_received    0x1               build/samd51j20/usart_sam_ba.o
+block_erased        0x80              build/samd51j20/flash_samd51.o
+timerHigh           0x4               build/samd51j20/utils.o
+idx_rx_write        0x1               build/samd51j20/usart_sam_ba.o
+size_of_data        0x2               build/samd51j20/usart_sam_ba.o
+resetHorizon        0x4               build/samd51j20/utils.o
+idx_tx_read         0x1               build/samd51j20/usart_sam_ba.o
+buffer_tx_usart     0x80              build/samd51j20/usart_sam_ba.o
+error_timeout       0x1               build/samd51j20/usart_sam_ba.o
+mode_of_transfer    0x1               build/samd51j20/usart_sam_ba.o
+idx_rx_read         0x1               build/samd51j20/usart_sam_ba.o
+pageBuf             0x100             build/samd51j20/selfmain.o
+idx_tx_write        0x1               build/samd51j20/usart_sam_ba.o
+row_same            0x1000            build/samd51j20/flash_samd51.o
+buffer_rx_usart     0x80              build/samd51j20/usart_sam_ba.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/samd51j20/flash_samd51.o
+ .data          0x0000000000000000        0x0 build/samd51j20/flash_samd51.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/flash_samd51.o
+ .text.flash_erase_block
+                0x0000000000000000       0x20 build/samd51j20/flash_samd51.o
+ .text.flash_erase_to_end
+                0x0000000000000000       0x34 build/samd51j20/flash_samd51.o
+ .text.copy_words
+                0x0000000000000000       0x18 build/samd51j20/flash_samd51.o
+ .text          0x0000000000000000        0x0 build/samd51j20/init_samd51.o
+ .data          0x0000000000000000        0x0 build/samd51j20/init_samd51.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/init_samd51.o
+ .text          0x0000000000000000        0x0 build/samd51j20/startup_samd51.o
+ .data          0x0000000000000000        0x0 build/samd51j20/startup_samd51.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/startup_samd51.o
+ .text          0x0000000000000000        0x0 build/samd51j20/usart_sam_ba.o
+ .data          0x0000000000000000        0x0 build/samd51j20/usart_sam_ba.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/usart_sam_ba.o
+ .text.usart_open
+                0x0000000000000000       0xb8 build/samd51j20/usart_sam_ba.o
+ .text.usart_close
+                0x0000000000000000        0xc build/samd51j20/usart_sam_ba.o
+ .text.usart_putc
+                0x0000000000000000       0x14 build/samd51j20/usart_sam_ba.o
+ .text.usart_getc
+                0x0000000000000000       0x18 build/samd51j20/usart_sam_ba.o
+ .text.usart_sharp_received
+                0x0000000000000000       0x2c build/samd51j20/usart_sam_ba.o
+ .text.usart_is_rx_ready
+                0x0000000000000000       0x10 build/samd51j20/usart_sam_ba.o
+ .text.usart_readc
+                0x0000000000000000       0x20 build/samd51j20/usart_sam_ba.o
+ .text.usart_putdata
+                0x0000000000000000       0x24 build/samd51j20/usart_sam_ba.o
+ .text.usart_getdata
+                0x0000000000000000       0x1c build/samd51j20/usart_sam_ba.o
+ .text.add_crc  0x0000000000000000       0x58 build/samd51j20/usart_sam_ba.o
+ .text.getbytes
+                0x0000000000000000       0x80 build/samd51j20/usart_sam_ba.o
+ .text.getPacket
+                0x0000000000000000       0x94 build/samd51j20/usart_sam_ba.o
+ .text.usart_putdata_xmd
+                0x0000000000000000      0x164 build/samd51j20/usart_sam_ba.o
+ .text.usart_getdata_xmd
+                0x0000000000000000       0xcc build/samd51j20/usart_sam_ba.o
+ .bss.crcCache  0x0000000000000000      0x200 build/samd51j20/usart_sam_ba.o
+ .debug_info    0x0000000000000000     0x4c7f build/samd51j20/usart_sam_ba.o
+ .debug_abbrev  0x0000000000000000      0x616 build/samd51j20/usart_sam_ba.o
+ .debug_loc     0x0000000000000000      0xb45 build/samd51j20/usart_sam_ba.o
+ .debug_aranges
+                0x0000000000000000       0x88 build/samd51j20/usart_sam_ba.o
+ .debug_ranges  0x0000000000000000      0x2b0 build/samd51j20/usart_sam_ba.o
+ .debug_line    0x0000000000000000      0xb6d build/samd51j20/usart_sam_ba.o
+ .debug_str     0x0000000000000000     0x1643 build/samd51j20/usart_sam_ba.o
+ .comment       0x0000000000000000       0x77 build/samd51j20/usart_sam_ba.o
+ .debug_frame   0x0000000000000000      0x1b0 build/samd51j20/usart_sam_ba.o
+ .ARM.attributes
+                0x0000000000000000       0x2e build/samd51j20/usart_sam_ba.o
+ COMMON         0x0000000000000000      0x10c build/samd51j20/usart_sam_ba.o
+ .text          0x0000000000000000        0x0 build/samd51j20/screen.o
+ .data          0x0000000000000000        0x0 build/samd51j20/screen.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/screen.o
+ .debug_info    0x0000000000000000      0x9a3 build/samd51j20/screen.o
+ .debug_abbrev  0x0000000000000000      0x1bd build/samd51j20/screen.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/samd51j20/screen.o
+ .debug_line    0x0000000000000000      0x1b2 build/samd51j20/screen.o
+ .debug_str     0x0000000000000000      0x610 build/samd51j20/screen.o
+ .comment       0x0000000000000000       0x77 build/samd51j20/screen.o
+ .ARM.attributes
+                0x0000000000000000       0x33 build/samd51j20/screen.o
+ .text          0x0000000000000000        0x0 build/samd51j20/images.o
+ .data          0x0000000000000000        0x0 build/samd51j20/images.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/images.o
+ .rodata.arrowLogo
+                0x0000000000000000       0x39 build/samd51j20/images.o
+ .rodata.fileLogo
+                0x0000000000000000       0x4a build/samd51j20/images.o
+ .rodata.font8  0x0000000000000000      0x240 build/samd51j20/images.o
+ .rodata.pendriveLogo
+                0x0000000000000000       0x3e build/samd51j20/images.o
+ .debug_info    0x0000000000000000      0x11e build/samd51j20/images.o
+ .debug_abbrev  0x0000000000000000       0x6a build/samd51j20/images.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/samd51j20/images.o
+ .debug_line    0x0000000000000000       0xe6 build/samd51j20/images.o
+ .debug_str     0x0000000000000000      0x1e2 build/samd51j20/images.o
+ .comment       0x0000000000000000       0x77 build/samd51j20/images.o
+ .ARM.attributes
+                0x0000000000000000       0x33 build/samd51j20/images.o
+ .text          0x0000000000000000        0x0 build/samd51j20/utils.o
+ .data          0x0000000000000000        0x0 build/samd51j20/utils.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/utils.o
+ .text.panic    0x0000000000000000        0x4 build/samd51j20/utils.o
+ .text.writeNum
+                0x0000000000000000       0x40 build/samd51j20/utils.o
+ .text.led_signal
+                0x0000000000000000       0x28 build/samd51j20/utils.o
+ .text.timerTick
+                0x0000000000000000       0x3c build/samd51j20/utils.o
+ .bss.timerLow  0x0000000000000000        0x4 build/samd51j20/utils.o
+ COMMON         0x0000000000000000        0x8 build/samd51j20/utils.o
+ .text          0x0000000000000000        0x0 build/samd51j20/selfmain.o
+ .data          0x0000000000000000        0x0 build/samd51j20/selfmain.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/selfmain.o
+ .text          0x0000000000000000        0x0 build/samd51j20/selfdata.o
+ .data          0x0000000000000000        0x0 build/samd51j20/selfdata.o
+ .bss           0x0000000000000000        0x0 build/samd51j20/selfdata.o
+ .rodata.bootloader_crcs
+                0x0000000000000000       0x20 build/samd51j20/selfdata.o
+ .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000004000 0x000000000007c000 xr
+ram              0x0000000020000000 0x0000000000030000 xrw
+bkupram          0x0000000047000000 0x0000000000002000 xrw
+qspi             0x0000000004000000 0x0000000001000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/samd51j20/flash_samd51.o
+LOAD build/samd51j20/init_samd51.o
+LOAD build/samd51j20/startup_samd51.o
+LOAD build/samd51j20/usart_sam_ba.o
+LOAD build/samd51j20/screen.o
+LOAD build/samd51j20/images.o
+LOAD build/samd51j20/utils.o
+LOAD build/samd51j20/selfmain.o
+LOAD build/samd51j20/selfdata.o
+START GROUP
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+LOAD /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libnosys.a
+END GROUP
+                0x000000000000c000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0xc000
+
+.text           0x0000000000004000     0x4924
+                0x0000000000004000                . = ALIGN (0x4)
+                0x0000000000004000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x0000000000004000      0x264 build/samd51j20/startup_samd51.o
+                0x0000000000004000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.flash_write_words
+                0x0000000000004264       0x6c build/samd51j20/flash_samd51.o
+                0x0000000000004264                flash_write_words
+ .text.flash_write_row
+                0x00000000000042d0      0x178 build/samd51j20/flash_samd51.o
+                0x00000000000042d0                flash_write_row
+ .text.system_init
+                0x0000000000004448       0xcc build/samd51j20/init_samd51.o
+                0x0000000000004448                system_init
+ .text.SysTick_Handler
+                0x0000000000004514        0x4 build/samd51j20/init_samd51.o
+                0x0000000000004514                SysTick_Handler
+ .text.Dummy_Handler
+                0x0000000000004518        0x4 build/samd51j20/startup_samd51.o
+                0x0000000000004518                ICM_Handler
+                0x0000000000004518                SERCOM0_2_Handler
+                0x0000000000004518                DebugMon_Handler
+                0x0000000000004518                EIC_13_Handler
+                0x0000000000004518                EVSYS_0_Handler
+                0x0000000000004518                TCC1_3_Handler
+                0x0000000000004518                DAC_3_Handler
+                0x0000000000004518                TRNG_Handler
+                0x0000000000004518                HardFault_Handler
+                0x0000000000004518                TC2_Handler
+                0x0000000000004518                PDEC_2_Handler
+                0x0000000000004518                EIC_4_Handler
+                0x0000000000004518                AC_Handler
+                0x0000000000004518                SERCOM3_1_Handler
+                0x0000000000004518                TCC2_3_Handler
+                0x0000000000004518                SERCOM3_2_Handler
+                0x0000000000004518                PendSV_Handler
+                0x0000000000004518                NMI_Handler
+                0x0000000000004518                ADC1_1_Handler
+                0x0000000000004518                EVSYS_3_Handler
+                0x0000000000004518                PDEC_0_Handler
+                0x0000000000004518                QSPI_Handler
+                0x0000000000004518                TCC0_0_Handler
+                0x0000000000004518                EIC_3_Handler
+                0x0000000000004518                TAL_0_Handler
+                0x0000000000004518                DAC_2_Handler
+                0x0000000000004518                SERCOM0_0_Handler
+                0x0000000000004518                RTC_Handler
+                0x0000000000004518                UsageFault_Handler
+                0x0000000000004518                SERCOM4_0_Handler
+                0x0000000000004518                EIC_10_Handler
+                0x0000000000004518                SERCOM0_3_Handler
+                0x0000000000004518                EIC_11_Handler
+                0x0000000000004518                EIC_9_Handler
+                0x0000000000004518                OSC32KCTRL_Handler
+                0x0000000000004518                TCC2_1_Handler
+                0x0000000000004518                SUPC_1_Handler
+                0x0000000000004518                TCC0_5_Handler
+                0x0000000000004518                TCC0_6_Handler
+                0x0000000000004518                EVSYS_1_Handler
+                0x0000000000004518                TCC1_4_Handler
+                0x0000000000004518                DMAC_0_Handler
+                0x0000000000004518                WDT_Handler
+                0x0000000000004518                EIC_8_Handler
+                0x0000000000004518                EIC_15_Handler
+                0x0000000000004518                SERCOM5_0_Handler
+                0x0000000000004518                TC4_Handler
+                0x0000000000004518                TC1_Handler
+                0x0000000000004518                OSCCTRL_4_Handler
+                0x0000000000004518                SERCOM4_3_Handler
+                0x0000000000004518                EIC_12_Handler
+                0x0000000000004518                DMAC_4_Handler
+                0x0000000000004518                TCC4_2_Handler
+                0x0000000000004518                PAC_Handler
+                0x0000000000004518                TCC1_0_Handler
+                0x0000000000004518                USB_0_Handler
+                0x0000000000004518                OSCCTRL_0_Handler
+                0x0000000000004518                EIC_0_Handler
+                0x0000000000004518                OSCCTRL_3_Handler
+                0x0000000000004518                SERCOM4_1_Handler
+                0x0000000000004518                TC3_Handler
+                0x0000000000004518                Dummy_Handler
+                0x0000000000004518                TCC3_0_Handler
+                0x0000000000004518                TCC2_2_Handler
+                0x0000000000004518                SERCOM5_1_Handler
+                0x0000000000004518                TCC1_1_Handler
+                0x0000000000004518                DMAC_2_Handler
+                0x0000000000004518                ADC0_0_Handler
+                0x0000000000004518                SERCOM0_1_Handler
+                0x0000000000004518                OSCCTRL_2_Handler
+                0x0000000000004518                ADC1_0_Handler
+                0x0000000000004518                TCC1_2_Handler
+                0x0000000000004518                USB_1_Handler
+                0x0000000000004518                PM_Handler
+                0x0000000000004518                SERCOM2_3_Handler
+                0x0000000000004518                DAC_4_Handler
+                0x0000000000004518                TCC3_2_Handler
+                0x0000000000004518                TCC0_2_Handler
+                0x0000000000004518                DMAC_1_Handler
+                0x0000000000004518                TCC4_0_Handler
+                0x0000000000004518                USB_3_Handler
+                0x0000000000004518                TCC2_0_Handler
+                0x0000000000004518                PDEC_1_Handler
+                0x0000000000004518                MemManage_Handler
+                0x0000000000004518                TCC4_1_Handler
+                0x0000000000004518                SERCOM5_3_Handler
+                0x0000000000004518                USB_2_Handler
+                0x0000000000004518                SVC_Handler
+                0x0000000000004518                SDHC0_Handler
+                0x0000000000004518                SERCOM1_1_Handler
+                0x0000000000004518                I2S_Handler
+                0x0000000000004518                EIC_2_Handler
+                0x0000000000004518                PCC_Handler
+                0x0000000000004518                DAC_0_Handler
+                0x0000000000004518                TCC0_1_Handler
+                0x0000000000004518                SERCOM1_3_Handler
+                0x0000000000004518                EIC_6_Handler
+                0x0000000000004518                OSCCTRL_1_Handler
+                0x0000000000004518                SERCOM1_0_Handler
+                0x0000000000004518                PUKCC_Handler
+                0x0000000000004518                SERCOM2_1_Handler
+                0x0000000000004518                SERCOM1_2_Handler
+                0x0000000000004518                SERCOM3_0_Handler
+                0x0000000000004518                EIC_1_Handler
+                0x0000000000004518                SERCOM4_2_Handler
+                0x0000000000004518                EVSYS_4_Handler
+                0x0000000000004518                EIC_7_Handler
+                0x0000000000004518                NVMCTRL_1_Handler
+                0x0000000000004518                SERCOM5_2_Handler
+                0x0000000000004518                SERCOM3_3_Handler
+                0x0000000000004518                ADC0_1_Handler
+                0x0000000000004518                SERCOM2_2_Handler
+                0x0000000000004518                TCC3_1_Handler
+                0x0000000000004518                EIC_14_Handler
+                0x0000000000004518                DAC_1_Handler
+                0x0000000000004518                NVMCTRL_0_Handler
+                0x0000000000004518                TAL_1_Handler
+                0x0000000000004518                MCLK_Handler
+                0x0000000000004518                EVSYS_2_Handler
+                0x0000000000004518                SUPC_0_Handler
+                0x0000000000004518                BusFault_Handler
+                0x0000000000004518                FREQM_Handler
+                0x0000000000004518                TC0_Handler
+                0x0000000000004518                TCC0_3_Handler
+                0x0000000000004518                DMAC_3_Handler
+                0x0000000000004518                TCC0_4_Handler
+                0x0000000000004518                RAMECC_Handler
+                0x0000000000004518                TC5_Handler
+                0x0000000000004518                SERCOM2_0_Handler
+                0x0000000000004518                AES_Handler
+                0x0000000000004518                EIC_5_Handler
+ .text.Reset_Handler
+                0x000000000000451c       0x74 build/samd51j20/startup_samd51.o
+                0x000000000000451c                Reset_Handler
+ .text.NVIC_SystemReset
+                0x0000000000004590       0x20 build/samd51j20/utils.o
+ .text.neopixel_send_buffer_core
+                0x00000000000045b0       0x38 build/samd51j20/utils.o
+ .text.delay    0x00000000000045e8       0x14 build/samd51j20/utils.o
+                0x00000000000045e8                delay
+ .text.resetIntoBootloader
+                0x00000000000045fc       0x14 build/samd51j20/utils.o
+                0x00000000000045fc                resetIntoBootloader
+ .text.led_tick
+                0x0000000000004610       0x80 build/samd51j20/utils.o
+                0x0000000000004610                led_tick
+ .text.led_init
+                0x0000000000004690       0x10 build/samd51j20/utils.o
+                0x0000000000004690                led_init
+ .text.RGBLED_set_color
+                0x00000000000046a0       0x68 build/samd51j20/utils.o
+                0x00000000000046a0                RGBLED_set_color
+ .text.resetIntoApp
+                0x0000000000004708       0x1c build/samd51j20/utils.o
+                0x0000000000004708                resetIntoApp
+ .text.setBootProt
+                0x0000000000004724      0x138 build/samd51j20/selfmain.o
+                0x0000000000004724                setBootProt
+ .text.startup.main
+                0x000000000000485c       0xac build/samd51j20/selfmain.o
+                0x000000000000485c                main
+ .text.memcpy   0x0000000000004908       0x1c /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000004908                memcpy
+ *(.glue_7t)
+ .glue_7t       0x0000000000004924        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000004924        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.bootloader
+                0x0000000000004924     0x4000 build/samd51j20/selfdata.o
+                0x0000000000004924                bootloader
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000008924                . = ALIGN (0x4)
+ *(.init)
+                0x0000000000008924                . = ALIGN (0x4)
+                0x0000000000008924                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000000008924                __preinit_array_end = .
+                0x0000000000008924                . = ALIGN (0x4)
+                0x0000000000008924                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000000008924                __init_array_end = .
+                0x0000000000008924                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000000000008924                . = ALIGN (0x4)
+ *(.fini)
+                0x0000000000008924                . = ALIGN (0x4)
+                0x0000000000008924                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0000000000008924                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000000000008924                . = ALIGN (0x4)
+                0x0000000000008924                _efixed = .
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.vfp11_veneer   0x0000000000008924        0x0
+ .vfp11_veneer  0x0000000000008924        0x0 linker stubs
+
+.v4_bx          0x0000000000008924        0x0
+ .v4_bx         0x0000000000008924        0x0 linker stubs
+
+.iplt           0x0000000000008924        0x0
+ .iplt          0x0000000000008924        0x0 build/samd51j20/flash_samd51.o
+
+.igot.plt       0x0000000000008924        0x0
+ .igot.plt      0x0000000000008924        0x0 build/samd51j20/flash_samd51.o
+
+.rel.dyn        0x0000000000008924        0x0
+ .rel.iplt      0x0000000000008924        0x0 build/samd51j20/flash_samd51.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end = .)
+                0x0000000000008924                . = ALIGN (0x4)
+                0x0000000000008924                _etext = .
+
+.relocate       0x0000000020000000        0x4 load address 0x0000000000008924
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.led_tick_step
+                0x0000000020000000        0x1 build/samd51j20/utils.o
+                0x0000000020000000                led_tick_step
+ .data.limit    0x0000000020000001        0x1 build/samd51j20/utils.o
+                0x0000000020000004                . = ALIGN (0x4)
+ *fill*         0x0000000020000002        0x2 
+                0x0000000020000004                _erelocate = .
+
+.bkupram        0x0000000047000000        0x0
+                0x0000000047000000                . = ALIGN (0x8)
+                0x0000000047000000                _sbkupram = .
+ *(.bkupram .bkupram.*)
+                0x0000000047000000                . = ALIGN (0x8)
+                0x0000000047000000                _ebkupram = .
+
+.qspi           0x0000000004000000        0x0
+                0x0000000004000000                . = ALIGN (0x8)
+                0x0000000004000000                _sqspi = .
+ *(.qspi .qspi.*)
+                0x0000000004000000                . = ALIGN (0x8)
+                0x0000000004000000                _eqspi = .
+
+.bss            0x0000000020000004     0x1188 load address 0x0000000000008928
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _sbss = .
+                0x0000000020000004                _szero = .
+ *(.bss .bss.*)
+ .bss.now       0x0000000020000004        0x4 build/samd51j20/utils.o
+ .bss.signal_end
+                0x0000000020000008        0x4 build/samd51j20/utils.o
+ *(COMMON)
+ COMMON         0x000000002000000c     0x1080 build/samd51j20/flash_samd51.o
+                0x000000002000000c                block_erased
+                0x000000002000008c                row_same
+ COMMON         0x000000002000108c      0x100 build/samd51j20/selfmain.o
+                0x000000002000108c                pageBuf
+                0x000000002000118c                . = ALIGN (0x4)
+                0x000000002000118c                _ebss = .
+                0x000000002000118c                _ezero = .
+
+.stack          0x000000002000118c     0xc004 load address 0x0000000000009ab0
+                0x0000000020001190                . = ALIGN (0x8)
+ *fill*         0x000000002000118c        0x4 
+                0x0000000020001190                _sstack = .
+                0x000000002000d190                . = (. + STACK_SIZE)
+ *fill*         0x0000000020001190     0xc000 
+                0x000000002000d190                . = ALIGN (0x8)
+                0x000000002000d190                _estack = .
+                0x000000002000d190                . = ALIGN (0x4)
+                0x000000002000d190                _end = .
+OUTPUT(build/samd51j20/update-bootloader-samd51j20-v3.7.0-54-g63b4c6f.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x9230
+ .debug_info    0x0000000000000000     0x1772 build/samd51j20/flash_samd51.o
+ .debug_info    0x0000000000001772     0x35c8 build/samd51j20/init_samd51.o
+ .debug_info    0x0000000000004d3a      0xc4c build/samd51j20/startup_samd51.o
+ .debug_info    0x0000000000005986     0x17eb build/samd51j20/utils.o
+ .debug_info    0x0000000000007171     0x1fd0 build/samd51j20/selfmain.o
+ .debug_info    0x0000000000009141       0xef build/samd51j20/selfdata.o
+
+.debug_abbrev   0x0000000000000000     0x118f
+ .debug_abbrev  0x0000000000000000      0x39c build/samd51j20/flash_samd51.o
+ .debug_abbrev  0x000000000000039c      0x344 build/samd51j20/init_samd51.o
+ .debug_abbrev  0x00000000000006e0      0x17d build/samd51j20/startup_samd51.o
+ .debug_abbrev  0x000000000000085d      0x51b build/samd51j20/utils.o
+ .debug_abbrev  0x0000000000000d78      0x397 build/samd51j20/selfmain.o
+ .debug_abbrev  0x000000000000110f       0x80 build/samd51j20/selfdata.o
+
+.debug_loc      0x0000000000000000      0xbca
+ .debug_loc     0x0000000000000000      0x603 build/samd51j20/flash_samd51.o
+ .debug_loc     0x0000000000000603       0x45 build/samd51j20/init_samd51.o
+ .debug_loc     0x0000000000000648       0x46 build/samd51j20/startup_samd51.o
+ .debug_loc     0x000000000000068e      0x2d5 build/samd51j20/utils.o
+ .debug_loc     0x0000000000000963      0x267 build/samd51j20/selfmain.o
+
+.debug_aranges  0x0000000000000000      0x148
+ .debug_aranges
+                0x0000000000000000       0x40 build/samd51j20/flash_samd51.o
+ .debug_aranges
+                0x0000000000000040       0x28 build/samd51j20/init_samd51.o
+ .debug_aranges
+                0x0000000000000068       0x28 build/samd51j20/startup_samd51.o
+ .debug_aranges
+                0x0000000000000090       0x78 build/samd51j20/utils.o
+ .debug_aranges
+                0x0000000000000108       0x28 build/samd51j20/selfmain.o
+ .debug_aranges
+                0x0000000000000130       0x18 build/samd51j20/selfdata.o
+
+.debug_ranges   0x0000000000000000      0x288
+ .debug_ranges  0x0000000000000000       0xd0 build/samd51j20/flash_samd51.o
+ .debug_ranges  0x00000000000000d0       0x50 build/samd51j20/init_samd51.o
+ .debug_ranges  0x0000000000000120       0x18 build/samd51j20/startup_samd51.o
+ .debug_ranges  0x0000000000000138      0x108 build/samd51j20/utils.o
+ .debug_ranges  0x0000000000000240       0x48 build/samd51j20/selfmain.o
+
+.debug_line     0x0000000000000000     0x1713
+ .debug_line    0x0000000000000000      0x534 build/samd51j20/flash_samd51.o
+ .debug_line    0x0000000000000534      0x3ff build/samd51j20/init_samd51.o
+ .debug_line    0x0000000000000933      0x1dc build/samd51j20/startup_samd51.o
+ .debug_line    0x0000000000000b0f      0x620 build/samd51j20/utils.o
+ .debug_line    0x000000000000112f      0x4f0 build/samd51j20/selfmain.o
+ .debug_line    0x000000000000161f       0xf4 build/samd51j20/selfdata.o
+
+.debug_str      0x0000000000000000     0x26c3
+ .debug_str     0x0000000000000000      0x91c build/samd51j20/flash_samd51.o
+                                        0x9c5 (size before relaxing)
+ .debug_str     0x000000000000091c      0xee4 build/samd51j20/init_samd51.o
+                                       0x17f1 (size before relaxing)
+ .debug_str     0x0000000000001800      0xb15 build/samd51j20/startup_samd51.o
+                                        0xd81 (size before relaxing)
+ .debug_str     0x0000000000002315      0x302 build/samd51j20/utils.o
+                                        0x9c1 (size before relaxing)
+ .debug_str     0x0000000000002617       0x91 build/samd51j20/selfmain.o
+                                        0xc28 (size before relaxing)
+ .debug_str     0x00000000000026a8       0x1b build/samd51j20/selfdata.o
+                                        0x1f9 (size before relaxing)
+
+.comment        0x0000000000000000       0x76
+ .comment       0x0000000000000000       0x76 build/samd51j20/flash_samd51.o
+                                         0x77 (size before relaxing)
+ .comment       0x0000000000000076       0x77 build/samd51j20/init_samd51.o
+ .comment       0x0000000000000076       0x77 build/samd51j20/startup_samd51.o
+ .comment       0x0000000000000076       0x77 build/samd51j20/utils.o
+ .comment       0x0000000000000076       0x77 build/samd51j20/selfmain.o
+ .comment       0x0000000000000076       0x77 build/samd51j20/selfdata.o
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x2e build/samd51j20/flash_samd51.o
+ .ARM.attributes
+                0x000000000000002e       0x2e build/samd51j20/init_samd51.o
+ .ARM.attributes
+                0x000000000000005c       0x2e build/samd51j20/startup_samd51.o
+ .ARM.attributes
+                0x000000000000008a       0x2e build/samd51j20/utils.o
+ .ARM.attributes
+                0x00000000000000b8       0x2e build/samd51j20/selfmain.o
+ .ARM.attributes
+                0x00000000000000e6       0x33 build/samd51j20/selfdata.o
+ .ARM.attributes
+                0x0000000000000119       0x2e /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_frame    0x0000000000000000      0x2f0
+ .debug_frame   0x0000000000000000       0xac build/samd51j20/flash_samd51.o
+ .debug_frame   0x00000000000000ac       0x40 build/samd51j20/init_samd51.o
+ .debug_frame   0x00000000000000ec       0x38 build/samd51j20/startup_samd51.o
+ .debug_frame   0x0000000000000124      0x140 build/samd51j20/utils.o
+ .debug_frame   0x0000000000000264       0x64 build/samd51j20/selfmain.o
+ .debug_frame   0x00000000000002c8       0x28 /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AC_Handler                                        build/samd51j20/startup_samd51.o
+ADC0_0_Handler                                    build/samd51j20/startup_samd51.o
+ADC0_1_Handler                                    build/samd51j20/startup_samd51.o
+ADC1_0_Handler                                    build/samd51j20/startup_samd51.o
+ADC1_1_Handler                                    build/samd51j20/startup_samd51.o
+AES_Handler                                       build/samd51j20/startup_samd51.o
+BusFault_Handler                                  build/samd51j20/startup_samd51.o
+DAC_0_Handler                                     build/samd51j20/startup_samd51.o
+DAC_1_Handler                                     build/samd51j20/startup_samd51.o
+DAC_2_Handler                                     build/samd51j20/startup_samd51.o
+DAC_3_Handler                                     build/samd51j20/startup_samd51.o
+DAC_4_Handler                                     build/samd51j20/startup_samd51.o
+DMAC_0_Handler                                    build/samd51j20/startup_samd51.o
+DMAC_1_Handler                                    build/samd51j20/startup_samd51.o
+DMAC_2_Handler                                    build/samd51j20/startup_samd51.o
+DMAC_3_Handler                                    build/samd51j20/startup_samd51.o
+DMAC_4_Handler                                    build/samd51j20/startup_samd51.o
+DebugMon_Handler                                  build/samd51j20/startup_samd51.o
+Dummy_Handler                                     build/samd51j20/startup_samd51.o
+EIC_0_Handler                                     build/samd51j20/startup_samd51.o
+EIC_10_Handler                                    build/samd51j20/startup_samd51.o
+EIC_11_Handler                                    build/samd51j20/startup_samd51.o
+EIC_12_Handler                                    build/samd51j20/startup_samd51.o
+EIC_13_Handler                                    build/samd51j20/startup_samd51.o
+EIC_14_Handler                                    build/samd51j20/startup_samd51.o
+EIC_15_Handler                                    build/samd51j20/startup_samd51.o
+EIC_1_Handler                                     build/samd51j20/startup_samd51.o
+EIC_2_Handler                                     build/samd51j20/startup_samd51.o
+EIC_3_Handler                                     build/samd51j20/startup_samd51.o
+EIC_4_Handler                                     build/samd51j20/startup_samd51.o
+EIC_5_Handler                                     build/samd51j20/startup_samd51.o
+EIC_6_Handler                                     build/samd51j20/startup_samd51.o
+EIC_7_Handler                                     build/samd51j20/startup_samd51.o
+EIC_8_Handler                                     build/samd51j20/startup_samd51.o
+EIC_9_Handler                                     build/samd51j20/startup_samd51.o
+EVSYS_0_Handler                                   build/samd51j20/startup_samd51.o
+EVSYS_1_Handler                                   build/samd51j20/startup_samd51.o
+EVSYS_2_Handler                                   build/samd51j20/startup_samd51.o
+EVSYS_3_Handler                                   build/samd51j20/startup_samd51.o
+EVSYS_4_Handler                                   build/samd51j20/startup_samd51.o
+FREQM_Handler                                     build/samd51j20/startup_samd51.o
+HardFault_Handler                                 build/samd51j20/startup_samd51.o
+I2S_Handler                                       build/samd51j20/startup_samd51.o
+ICM_Handler                                       build/samd51j20/startup_samd51.o
+MCLK_Handler                                      build/samd51j20/startup_samd51.o
+MemManage_Handler                                 build/samd51j20/startup_samd51.o
+NMI_Handler                                       build/samd51j20/startup_samd51.o
+NVMCTRL_0_Handler                                 build/samd51j20/startup_samd51.o
+NVMCTRL_1_Handler                                 build/samd51j20/startup_samd51.o
+OSC32KCTRL_Handler                                build/samd51j20/startup_samd51.o
+OSCCTRL_0_Handler                                 build/samd51j20/startup_samd51.o
+OSCCTRL_1_Handler                                 build/samd51j20/startup_samd51.o
+OSCCTRL_2_Handler                                 build/samd51j20/startup_samd51.o
+OSCCTRL_3_Handler                                 build/samd51j20/startup_samd51.o
+OSCCTRL_4_Handler                                 build/samd51j20/startup_samd51.o
+PAC_Handler                                       build/samd51j20/startup_samd51.o
+PCC_Handler                                       build/samd51j20/startup_samd51.o
+PDEC_0_Handler                                    build/samd51j20/startup_samd51.o
+PDEC_1_Handler                                    build/samd51j20/startup_samd51.o
+PDEC_2_Handler                                    build/samd51j20/startup_samd51.o
+PM_Handler                                        build/samd51j20/startup_samd51.o
+PUKCC_Handler                                     build/samd51j20/startup_samd51.o
+PendSV_Handler                                    build/samd51j20/startup_samd51.o
+QSPI_Handler                                      build/samd51j20/startup_samd51.o
+RAMECC_Handler                                    build/samd51j20/startup_samd51.o
+RGBLED_set_color                                  build/samd51j20/utils.o
+RTC_Handler                                       build/samd51j20/startup_samd51.o
+Reset_Handler                                     build/samd51j20/startup_samd51.o
+SDHC0_Handler                                     build/samd51j20/startup_samd51.o
+SERCOM0_0_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM0_1_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM0_2_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM0_3_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM1_0_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM1_1_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM1_2_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM1_3_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM2_0_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM2_1_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM2_2_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM2_3_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM3_0_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM3_1_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM3_2_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM3_3_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM4_0_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM4_1_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM4_2_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM4_3_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM5_0_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM5_1_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM5_2_Handler                                 build/samd51j20/startup_samd51.o
+SERCOM5_3_Handler                                 build/samd51j20/startup_samd51.o
+SUPC_0_Handler                                    build/samd51j20/startup_samd51.o
+SUPC_1_Handler                                    build/samd51j20/startup_samd51.o
+SVC_Handler                                       build/samd51j20/startup_samd51.o
+SysTick_Handler                                   build/samd51j20/init_samd51.o
+TAL_0_Handler                                     build/samd51j20/startup_samd51.o
+TAL_1_Handler                                     build/samd51j20/startup_samd51.o
+TC0_Handler                                       build/samd51j20/startup_samd51.o
+TC1_Handler                                       build/samd51j20/startup_samd51.o
+TC2_Handler                                       build/samd51j20/startup_samd51.o
+TC3_Handler                                       build/samd51j20/startup_samd51.o
+TC4_Handler                                       build/samd51j20/startup_samd51.o
+TC5_Handler                                       build/samd51j20/startup_samd51.o
+TCC0_0_Handler                                    build/samd51j20/startup_samd51.o
+TCC0_1_Handler                                    build/samd51j20/startup_samd51.o
+TCC0_2_Handler                                    build/samd51j20/startup_samd51.o
+TCC0_3_Handler                                    build/samd51j20/startup_samd51.o
+TCC0_4_Handler                                    build/samd51j20/startup_samd51.o
+TCC0_5_Handler                                    build/samd51j20/startup_samd51.o
+TCC0_6_Handler                                    build/samd51j20/startup_samd51.o
+TCC1_0_Handler                                    build/samd51j20/startup_samd51.o
+TCC1_1_Handler                                    build/samd51j20/startup_samd51.o
+TCC1_2_Handler                                    build/samd51j20/startup_samd51.o
+TCC1_3_Handler                                    build/samd51j20/startup_samd51.o
+TCC1_4_Handler                                    build/samd51j20/startup_samd51.o
+TCC2_0_Handler                                    build/samd51j20/startup_samd51.o
+TCC2_1_Handler                                    build/samd51j20/startup_samd51.o
+TCC2_2_Handler                                    build/samd51j20/startup_samd51.o
+TCC2_3_Handler                                    build/samd51j20/startup_samd51.o
+TCC3_0_Handler                                    build/samd51j20/startup_samd51.o
+TCC3_1_Handler                                    build/samd51j20/startup_samd51.o
+TCC3_2_Handler                                    build/samd51j20/startup_samd51.o
+TCC4_0_Handler                                    build/samd51j20/startup_samd51.o
+TCC4_1_Handler                                    build/samd51j20/startup_samd51.o
+TCC4_2_Handler                                    build/samd51j20/startup_samd51.o
+TRNG_Handler                                      build/samd51j20/startup_samd51.o
+USB_0_Handler                                     build/samd51j20/startup_samd51.o
+USB_1_Handler                                     build/samd51j20/startup_samd51.o
+USB_2_Handler                                     build/samd51j20/startup_samd51.o
+USB_3_Handler                                     build/samd51j20/startup_samd51.o
+UsageFault_Handler                                build/samd51j20/startup_samd51.o
+WDT_Handler                                       build/samd51j20/startup_samd51.o
+_erelocate                                        build/samd51j20/startup_samd51.o
+_estack                                           build/samd51j20/startup_samd51.o
+_etext                                            build/samd51j20/startup_samd51.o
+_ezero                                            build/samd51j20/startup_samd51.o
+_sfixed                                           build/samd51j20/startup_samd51.o
+_srelocate                                        build/samd51j20/startup_samd51.o
+_szero                                            build/samd51j20/startup_samd51.o
+add_crc                                           build/samd51j20/usart_sam_ba.o
+arrowLogo                                         build/samd51j20/images.o
+b_sharp_received                                  build/samd51j20/usart_sam_ba.o
+block_erased                                      build/samd51j20/flash_samd51.o
+bootloader                                        build/samd51j20/selfdata.o
+                                                  build/samd51j20/selfmain.o
+bootloader_crcs                                   build/samd51j20/selfdata.o
+buffer_rx_usart                                   build/samd51j20/usart_sam_ba.o
+buffer_tx_usart                                   build/samd51j20/usart_sam_ba.o
+copy_words                                        build/samd51j20/flash_samd51.o
+delay                                             build/samd51j20/utils.o
+                                                  build/samd51j20/selfmain.o
+error_timeout                                     build/samd51j20/usart_sam_ba.o
+exception_table                                   build/samd51j20/startup_samd51.o
+fileLogo                                          build/samd51j20/images.o
+flash_erase_block                                 build/samd51j20/flash_samd51.o
+flash_erase_to_end                                build/samd51j20/flash_samd51.o
+flash_write_row                                   build/samd51j20/flash_samd51.o
+                                                  build/samd51j20/selfmain.o
+flash_write_words                                 build/samd51j20/flash_samd51.o
+                                                  build/samd51j20/selfmain.o
+font8                                             build/samd51j20/images.o
+getPacket                                         build/samd51j20/usart_sam_ba.o
+idx_rx_read                                       build/samd51j20/usart_sam_ba.o
+idx_rx_write                                      build/samd51j20/usart_sam_ba.o
+idx_tx_read                                       build/samd51j20/usart_sam_ba.o
+idx_tx_write                                      build/samd51j20/usart_sam_ba.o
+led_init                                          build/samd51j20/utils.o
+                                                  build/samd51j20/selfmain.o
+led_signal                                        build/samd51j20/utils.o
+led_tick                                          build/samd51j20/utils.o
+                                                  build/samd51j20/init_samd51.o
+led_tick_step                                     build/samd51j20/utils.o
+main                                              build/samd51j20/selfmain.o
+                                                  build/samd51j20/startup_samd51.o
+memcpy                                            /usr/local/Cellar/gcc-arm-none-eabi-83/20190709/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                                                  build/samd51j20/selfmain.o
+                                                  build/samd51j20/flash_samd51.o
+mode_of_transfer                                  build/samd51j20/usart_sam_ba.o
+pageBuf                                           build/samd51j20/selfmain.o
+panic                                             build/samd51j20/utils.o
+pendriveLogo                                      build/samd51j20/images.o
+resetHorizon                                      build/samd51j20/utils.o
+resetIntoApp                                      build/samd51j20/utils.o
+                                                  build/samd51j20/selfmain.o
+resetIntoBootloader                               build/samd51j20/utils.o
+                                                  build/samd51j20/selfmain.o
+row_same                                          build/samd51j20/flash_samd51.o
+setBootProt                                       build/samd51j20/selfmain.o
+size_of_data                                      build/samd51j20/usart_sam_ba.o
+system_init                                       build/samd51j20/init_samd51.o
+                                                  build/samd51j20/selfmain.o
+timerHigh                                         build/samd51j20/utils.o
+timerTick                                         build/samd51j20/utils.o
+uart_basic_init                                   build/samd51j20/usart_sam_ba.o
+uart_disable                                      build/samd51j20/usart_sam_ba.o
+uart_read_byte                                    build/samd51j20/usart_sam_ba.o
+uart_write_byte                                   build/samd51j20/usart_sam_ba.o
+usart_close                                       build/samd51j20/usart_sam_ba.o
+usart_getc                                        build/samd51j20/usart_sam_ba.o
+usart_getdata                                     build/samd51j20/usart_sam_ba.o
+usart_getdata_xmd                                 build/samd51j20/usart_sam_ba.o
+usart_is_rx_ready                                 build/samd51j20/usart_sam_ba.o
+usart_open                                        build/samd51j20/usart_sam_ba.o
+usart_putc                                        build/samd51j20/usart_sam_ba.o
+usart_putdata                                     build/samd51j20/usart_sam_ba.o
+usart_putdata_xmd                                 build/samd51j20/usart_sam_ba.o
+usart_readc                                       build/samd51j20/usart_sam_ba.o
+usart_sharp_received                              build/samd51j20/usart_sam_ba.o
+writeNum                                          build/samd51j20/utils.o

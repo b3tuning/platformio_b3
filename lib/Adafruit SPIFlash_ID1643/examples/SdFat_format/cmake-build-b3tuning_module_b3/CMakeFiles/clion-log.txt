@@ -1,0 +1,4 @@
+"/Applications/CLion 2020.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=b3tuning_module_b3 -G "CodeBlocks - Unix Makefiles" "/Users/B3/.platformio/lib/Adafruit SPIFlash_ID1643/examples/SdFat_format"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/B3/.platformio/lib/Adafruit SPIFlash_ID1643/examples/SdFat_format/cmake-build-b3tuning_module_b3
